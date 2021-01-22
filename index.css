@@ -1,0 +1,14 @@
+table {
+    width: 800px;
+    text-align: center;
+}
+.btn-outline-success {
+    margin: auto;
+    margin-top: 10px;
+}
+.forms {
+    max-width: 150px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}

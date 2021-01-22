@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Справочник</title>
+        <link href="index.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="table">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>Имя</td>
+                        <td>Возраст</td>
+                        <td>Телефон</td>
+                        <td>E-mail</td>
+                        <td>Действия</td>
+                    </tr>
+                </thead>
+                <tbody id="list">
+                </tbody>
+            </table>
+        </div>
+        <form id="form">
+            <div class="forms">
+                <label>
+                    Имя:
+                    <input id="name" type="text" required placeholder="Женя" />
+                </label>
+                <label>
+                    Возраст:
+                    <input id="age" type="number" required placeholder="18" />
+                </label>
+                <label>
+                    Телефон:
+                    <input id="phone" type="number" required placeholder="8-922-555-55-55" />
+                </label>
+                <label>
+                    E-mail:
+                    <input id="mail" type="email" required placeholder="noname@mail.ru" />
+                </label>
+                <button type="submit" class="btn btn-outline-success">Создать</button>
+            </div>
+        </form>
+        <script src="index.js" type="application/javascript"></script>
+    </body>
+</html>
